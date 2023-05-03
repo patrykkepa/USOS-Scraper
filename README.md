@@ -18,11 +18,23 @@ The data is saved to the Files folder in the form of .csv files.
 - [JavaFX](https://openjfx.io/) (v19.0.2.1) - authentication middleware for Node.js
 
 # Usage 
-> Project was developed in Intellij Idea and the instruction is for running it in this environment
+> Project was developed in Intellij Idea
+* To run project with Intellij Idea:
+   * Clone/pull repository
+   * Open project in Intellij Idea
+   * Go to *./src/main/java/com.example.scraperGUI/HelloApplication* and run this file.
 
-1. Clone/pull repository
-2. Open project in Intellij Idea
-3. Go to *./src/main/java/com.example.scraperGUI/HelloApplication* and run this file.
+* To run project from cmd:
+   * Clone/pull repository
+   * Go to project folder
+   * Run in cmd:
+   ```shell
+    $ mvn compile
+   
+    $ mvn clean install
+   
+    $ mvn exec:java -Dexec.mainClass=com.example.scraperGUI.HelloApplication
+    ```
 
 ## License
 
